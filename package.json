@@ -1,0 +1,20 @@
+{
+  "name": "email-templates",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mjml": "./node_modules/.bin/mjml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.olist.io:bx/email-templates.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mjml": "^4.10.1"
+  },
+  "description": ""
+}
