@@ -8,7 +8,7 @@ TEMPLATES = 001-cancelamento-solicitado-com-devolucao\
 all: clean
 	$(MJML) -r *.mjml -o 
 
-$(TEMPLATES): 
+$(TEMPLATES):
 	rm -rf $@.html
 	$(MJML) -r $@.mjml -o $@.html
 

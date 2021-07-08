@@ -1,0 +1,13 @@
+    <mj-section mj-class="inverse-section">
+      <mj-group>
+        <mj-column vertical-align="middle" width="67%">
+          <mj-text mj-class="inverse-text" font-size="12px">
+            <a href="https://olistshops.com.br/">www.olistshops.com.br</a>
+          </mj-text>
+          <mj-text mj-class="inverse-text" font-size="12px">Todos os direitos reservados <br />&copy; Olist 2020</mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle" width="33%" >
+          <mj-image src="https://www.olistshops.com/images/mkt/logo-vertical-light.png" padding="0" width="68px" height="38px" align="right"></mj-image>
+        </mj-column>
+      </mj-group>
+    </mj-section>

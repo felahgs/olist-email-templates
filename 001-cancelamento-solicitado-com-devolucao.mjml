@@ -1,0 +1,89 @@
+<mjml lang="pt-br">
+
+  <mj-head>
+    <mj-include path="./sections/head.mjml" />
+    <mj-title>Olist - Cancelamento Solcicitado</mj-title>
+  </mj-head>
+
+  <mj-head>
+    <mj-title>Test</mj-title>
+  </mj-head>
+
+  <mj-body>
+    <mj-section mj-class="header">
+      <mj-column>
+        <mj-image height="32px" src="./images/olist.svg" />
+        <mj-text align="center"> 
+          <h1>cancelamento solicitado</h1>
+          <h1>pedido nº1234567</h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <p>Oi, <b>{{customer_name}}.</b></p>
+        <mj-text>          
+          <p>
+            Para seguir com o cancelamento, devolva o pedido nos Correios
+            nas mesmas condições que você recebeu, com a Nota Fiscal, com
+            a caixa original do produto e sem sinais de uso.
+          </p>
+        </mj-text>
+          <p>
+            Para que o reembolso seja aprovado é necessário atender as
+            orientações acima.
+          </p>
+        </mj-text>
+      </mj-column> 
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <p>
+            Segue o link da etiqueta para devolução:
+          </p>
+        </mj-text>
+        <mj-button 
+          border-radius=4px 
+          background-color="#0dc78b" 
+          font-size="16px"
+          font-weight="600"
+          height="60px"
+          
+          href="#"
+        >
+          gerar etiqueta
+        </mj-button>
+        <mj-text>
+            <ul>
+              <li>Imprima a etiqueta</li>
+              <li><b>Página 1:</b> entregue nos Correios</li>
+              <li><b>Página 2:</b> cole na embalagem do produto, já devidamente embalado
+              </li>
+            </ul>
+          </mj-text>
+
+        <mj-text color="#e64c2d">
+          <b>Atenção:</b> a etiqueta é válida por 15 dias corridos, semcusto de envio.
+        </mj-text>
+        <mj-text mj-class="danget-text">
+          <p>
+            Nosso horário de atendimento é de segunda à sexta das 9h às
+            18h e sábado até às 13h.
+          </p>
+          <p>Abraços,<br/><b>olist</b></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

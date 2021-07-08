@@ -1,0 +1,66 @@
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial" font-size="16px" line-height="24px" />
+
+      <mj-body background-color="#312f4f" width="640px" />
+      <mj-text padding="0" />
+      <mj-section background-color="white" padding="0 62px" />
+
+      <mj-class name="header" padding-top="48px" />
+      <mj-class name="danger-text" color="#e64c2d" />
+      <mj-class name="custom-button" width="304px" />
+
+    </mj-attributes>
+
+    <mj-breakpoint width="600px" />
+
+    <mj-style inline="inline">
+      h1 {
+        margin: 0;
+
+        color: #0a1f9c;
+        
+        font-weight: 600;
+        font-size: 26px;
+        line-height:33.8px;
+      }
+
+      h2 {
+          font-size: 20px;
+          margin: 0 0 15px 0;
+      }
+
+      p {
+        margin: 30px 0;
+
+        color: #312F4F;
+        font-size: 16px;
+        line-height: 24px;
+        weight: 400;
+      }
+
+      p a {
+          color: rgb(0, 0, 238);
+      }
+
+      a {
+          color: inherit;
+          text-decoration: underline;
+      }
+    </mj-style>
+
+    <mj-style>
+       @media only screen and (max-width: 620px) {
+        h1 {
+          font-size: 28px !important;
+          margin-bottom: 10px !important;
+        }
+
+        p {
+            font-size: 14px !important;
+        }
+      }
+    </mj-style>
+
+    <mj-title>Olist Email</mj-title>
+  </mj-head>
