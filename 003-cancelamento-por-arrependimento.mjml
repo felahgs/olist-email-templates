@@ -8,7 +8,7 @@
   <mj-body>
     <mj-section mj-class="header">
       <mj-column>
-        <mj-image height="32px" src="./images/olist.svg" />
+        <mj-image alt="olist" height="32px" src="./images/olist.svg" />
         <mj-text align="center"> 
           <h1>cancelamento</h1>
           <h1>pedido nº1234567</h1>
