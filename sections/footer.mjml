@@ -1,39 +1,37 @@
-  <mj-body>
-    <mj-hero
-      mode="fixed-height"
-      height="196px"
-      background-height="196px"
-      background-url="./images/footer-bg.svg"
-      background-color="#2a3448"
-      padding-top="24px"
-    >
-      <mj-text
-        align="center"
-        font-size="17px"
-        font-weight="600"
-        line-height="25.5px"
-      >
-        Dúvidas sobre a sua compra?
-      </mj-text>
-      <mj-text
-        align="center"
-        font-size="12px"
-        line-height="18px"
-      >
-        Estamos aqui para te ajudar.
-      </mj-text>
-      <mj-button 
-        align="center"
-        background-color="#0c29D0"
-        border-radius="100px"
-        color="#fff"
-        css-class="custom-button"
-        font-size="16px"
-        font-weight="600"
-        height="52px"
-        href="https://www.mercadolivre.com.br" 
-      >
-        preciso de ajuda
-      </mj-button>
-    </mj-hero>
-  </mj-body>
+<mj-hero
+  mode="fixed-height"
+  height="196px"
+  background-height="196px"
+  background-url="./images/footer-bg.svg"
+  background-color="#2a3448"
+  padding-top="24px"
+>
+  <mj-text
+    align="center"
+    font-size="17px"
+    font-weight="600"
+    line-height="25.5px"
+  >
+    Dúvidas sobre a sua compra?
+  </mj-text>
+  <mj-text
+    align="center"
+    font-size="12px"
+    line-height="18px"
+  >
+    Estamos aqui para te ajudar.
+  </mj-text>
+  <mj-button 
+    align="center"
+    background-color="#0c29D0"
+    border-radius="100px"
+    color="#fff"
+    css-class="custom-button"
+    font-size="16px"
+    font-weight="600"
+    height="52px"
+    href="https://www.mercadolivre.com.br" 
+  >
+    preciso de ajuda
+  </mj-button>
+</mj-hero>
