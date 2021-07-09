@@ -3,7 +3,7 @@
 
 ## Description
 
-Template repository for creating emails that are responsive and compatible with the main email services on the market. The emails are created usint mjml files and compiled using its framework to generate a responsive html.
+Template repository for creating responsive emails compatible with the main email services on the market. Emails are created using mjml files and compiled using their framework to generate a responsive html.
 
 ## Links
 
