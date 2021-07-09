@@ -1,27 +1,25 @@
-===========================================
-BX Email Templates
-===========================================
+##BX Email Templates
 
-Description
-^^^^^^^^^^^^
+###Description
+
 Template repository for creating emails that are responsive and compatible with the main email services on the market. The emails are created usint mjml files and compiled using its framework to generate a responsive html.
 
+---
 
-Links
-^^^^^^^^^^^^
+###Links
 
 mjml - https://mjml.io/
 
+---
 
-Install
-^^^^^^^^^^^^
+###Install
 
 Clone this repository and run:
 >>> yarn install
 
+---
 
-Running
-^^^^^^^^^^^^
+###Running
 
 Compile all avaliable templates:
 >>> make 
@@ -35,14 +33,14 @@ Delete all the compiled html files:
 Watch and compile a MJML file when modified
 >>> yarn run mjml -w {template_name}.mjml
 
-# All mjml commands can be called using "yarn run mjml". 
-# You can check all avaliable commands using "yarn run mjml --help" 
+All mjml commands can be called using "yarn run mjml". 
+You can check all avaliable commands using "yarn run mjml --help" 
 
+---
 
-Documentation
-^^^^^^^^^^^^^^^^^^^^^^^^
+###Documentation
 
-- `mjml Documentation <https://documentation.mjml.io/>`_
+- mjml Documentation https://documentation.mjml.io/
 
 
 
