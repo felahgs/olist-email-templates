@@ -1,0 +1,19 @@
+<svg width="640" height="196" xmlns="http://www.w3.org/2000/svg" fill="none">
+ <defs>
+  <clipPath id="clip0">
+   <rect id="svg_1" x="0" y="0.00098" fill="white" height="196" width="640"/>
+  </clipPath>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_3" fill="#E6EEFF" height="196" width="640" y="0.00098"/>
+  <mask height="83" width="84" y="0" x="556" maskUnits="userSpaceOnUse" mask-type="alpha" id="mask0">
+   <rect id="svg_4" fill="#C4C4C4" height="82" width="84" y="0.00098" x="556"/>
+  </mask>
+  <g id="svg_5" mask="url(#mask0)">
+   <path id="svg_6" fill="#4756F6" d="m640,-70.999c-41.419,0 -75,33.8047 -75,75.49998c0,41.69522 33.581,75.50002 75,75.50002c41.419,0 75,-33.8048 75,-75.50002c0,-41.69528 -33.581,-75.49998 -75,-75.49998zm0,112.5609c-20.334,0 -36.829,-16.5916 -36.829,-37.07443c0,-20.48277 16.482,-37.07447 36.829,-37.07447c20.334,0 36.829,16.5917 36.829,37.07447c0,20.48283 -16.495,37.07443 -36.829,37.07443z"/>
+  </g>
+  <rect id="svg_7" fill="#4EE5A5" height="18" width="49" y="156.001" x="584"/>
+  <circle id="svg_8" fill="#F9B900" r="27.5" cy="195.501" cx="307.5"/>
+ </g>
+</svg>

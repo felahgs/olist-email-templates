@@ -1,0 +1,48 @@
+<mjml lang="pt-br">
+
+  <mj-head>
+    <mj-include path="./sections/head.mjml" />
+    <mj-title>Olist - Cancelamento Autorizado</mj-title>
+  </mj-head>
+
+  <mj-body>
+    <mj-section mj-class="header">
+      <mj-column>
+        <mj-image height="32px" src="./images/olist.svg" />
+        <mj-text align="center"> 
+          <h1>cancelamento autorizado</h1>
+          <h1>pedido nº1234567</h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <p>Oi, <b>{{customer_name}}.</b></p>
+        <mj-text>          
+          <p>
+            O cancelamento da sua compra foi autorizado e o reembolso será
+            efetuado pelo Mercado Livre.
+          </p>
+        </mj-text>
+          <span>Dúvidas sobre o reembolso acesso o site:</span> <br />
+          <a href="https://www.mercadolivre.com.br/ajuda" target="_blank">
+            https://www.mercadolivre.com.br/ajuda
+          </a>
+        </mj-text>
+      </mj-column> 
+    </mj-section>
+
+    <mj-section padding-bottom="40px">
+      <mj-column>
+        <mj-text >
+          <p>Abraços,<br/><b>olist</b></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./sections/footer.mjml" />
+
+  </mj-body>
+</mjml>

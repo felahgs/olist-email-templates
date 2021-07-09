@@ -1,0 +1,47 @@
+<mjml lang="pt-br">
+
+  <mj-head>
+    <mj-include path="./sections/head.mjml" />
+    <mj-title>Olist - Cancelamento em Andamento</mj-title>
+  </mj-head>
+
+  <mj-body>
+    <mj-section mj-class="header">
+      <mj-column>
+        <mj-image height="32px" src="./images/olist.svg" />
+        <mj-text align="center"> 
+          <h1>cancelamento em andamento</h1>
+          <h1>pedido nº1234567</h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <p>Oi, <b>{{customer_name}}.</b></p>
+        <mj-text>          
+          <p>
+            Agradecemos por efetuar a devolução!
+          </p>
+        </mj-text>
+          <p>
+            O seu reembolso será efetuado no PIX informado em até 72
+            horas.
+          </p>
+        </mj-text>
+      </mj-column> 
+    </mj-section>
+
+    <mj-section padding-bottom="40px">
+      <mj-column>
+        <mj-text >
+          <p>Abraços,<br/><b>olist</b></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./sections/footer.mjml" />
+
+  </mj-body>
+</mjml>

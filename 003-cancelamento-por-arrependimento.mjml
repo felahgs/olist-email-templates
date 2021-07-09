@@ -1,0 +1,71 @@
+<mjml lang="pt-br">
+
+  <mj-head>
+    <mj-include path="./sections/head.mjml" />
+    <mj-title>Olist - Cancelamento Solicitado</mj-title>
+  </mj-head>
+
+  <mj-body>
+    <mj-section mj-class="header">
+      <mj-column>
+        <mj-image height="32px" src="./images/olist.svg" />
+        <mj-text align="center"> 
+          <h1>cancelamento</h1>
+          <h1>pedido nº1234567</h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <p>Oi, <b>{{customer_name}}.</b></p>
+        <mj-text>          
+          <p>
+            Recebemos a sua solicitação de cancelamento!
+          </p>
+        </mj-text>
+      </mj-column> 
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <p>
+            Para seguir com o cancelamento de maneira mais rápida, por gentileza realize os seguintes passos:
+          </p>
+        </mj-text>
+        <mj-text css-class="danger-text">
+          <ul>
+            <li>
+              <span>Aguarde 2 dias a partir da data da compra</span class="attention">, acesse e localize sua compra no Mercado Livre: 
+              <br>
+              <a href="https://myaccount.mercadolivre.com.br/purchases/list" target="_blank">
+                https://myaccount.mercadolivre.com.br/purchases/list
+              </a>
+            </li>
+            <br>
+            <li>
+              Em <b>Ajuda com a compra</b> clique em <b>Quero devolver o produto</b> -> <b>É o que eu comprei, 
+              porém não serviu</b> -> <b>Me arrependi da compra</b> -> e inicie a reclamação.
+            </li>
+          </ul>
+          </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="40px">
+      <mj-column>
+        <mj-text >
+          <p>
+            Assim que realizar os passos acima, o reembolso será liberado.
+          </p>
+          <p>Abraços,<br/><b>olist</b></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./sections/footer.mjml" />
+
+  </mj-body>
+</mjml>

@@ -4,11 +4,10 @@
 
       <mj-body background-color="#312f4f" width="640px" />
       <mj-text padding="0" />
-      <mj-section background-color="white" padding="0 62px" />
+      <mj-section background-color="white" padding="0 50px" />
 
-      <mj-class name="header" padding-top="48px" />
+      <mj-class name="header" padding-top="48px" padding-bottom="20px" />
       <mj-class name="danger-text" color="#e64c2d" />
-      <mj-class name="custom-button" width="304px" />
 
     </mj-attributes>
 
@@ -31,7 +30,7 @@
       }
 
       p {
-        margin: 30px 0;
+        margin: 20px 0;
 
         color: #312F4F;
         font-size: 16px;
@@ -39,24 +38,45 @@
         weight: 400;
       }
 
+      li {
+        font-size: 15px;
+      }
+
       p a {
           color: rgb(0, 0, 238);
       }
 
       a {
-          color: inherit;
           text-decoration: underline;
       }
     </mj-style>
 
     <mj-style>
+      .custom-button table td { 
+        width:304px!important; 
+      } 
+
+      .danger-text span {
+        color: #e64c2d;
+      }
+
+      ul {
+        padding: 0px 40px;
+        margin: 0;
+      }
+
        @media only screen and (max-width: 620px) {
+
         h1 {
           font-size: 28px !important;
           margin-bottom: 10px !important;
         }
 
-        p {
+        ul {
+          padding: 0px 20px !important;
+        }
+
+        p li {
             font-size: 14px !important;
         }
       }
