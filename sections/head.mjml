@@ -2,8 +2,9 @@
   <mj-all font-family="Arial" font-size="16px" line-height="24px" />
 
   <mj-body background-color="#312f4f" width="640px" />
+  <mj-wrapper background-color="white" />
+  <mj-section background-color="white" padding="0 35px" />
   <mj-text padding="0" />
-  <mj-section background-color="white" padding="0 50px" />
 
   <mj-class name="header" padding-top="48px" padding-bottom="20px" />
   <mj-class name="danger-text" color="#e64c2d" />
@@ -59,12 +60,19 @@
     color: #e64c2d;
   }
 
+  .box-shadow > table {
+    box-shadow: 0px 1px 4px 0px #312F4F29,
+                0px 1px 1px 0px #312F4F21,
+                0px 2px 2px 0px #312F4F21;
+  }
+
   ul {
     padding: 0px 40px;
     margin: 0;
   }
 
-    @media only screen and (max-width: 620px) {
+
+  @media only screen and (max-width: 620px) {
 
     h1 {
       font-size: 28px !important;

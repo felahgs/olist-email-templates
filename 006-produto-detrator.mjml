@@ -1,0 +1,77 @@
+<mjml lang="pt-br">
+
+  <mj-head>
+    <mj-include path="./sections/head.mjml" />
+    <mj-title>Olist - Produto com Reclamação</mj-title>
+  </mj-head>
+
+  <mj-body>
+    <mj-section mj-class="header">
+      <mj-column>
+        <mj-image height="32px" src="./images/olist.svg" />
+        <mj-text align="center"> 
+          <h1>produto com alta taxa de reclamações</h1>
+          <h1>SKU 0000000000000</h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <p>Oi, <b>{{seller_name}}.</b></p>
+        <mj-text>          
+          <p>
+            O produto abaixo está com uma <b>alta taxa de reclamações</b> e por
+             esse motivo seu anúncio poderá ser inativado a qualquer momento.
+          </p>
+        </mj-text>
+      </mj-column> 
+    </mj-section>
+
+    <mj-wrapper padding="10px 35px">
+      <mj-section css-class="box-shadow" border="1px solid #B6B9D0" >
+          <mj-column width="20%" css-class="column-align-left" padding="20px 0" >
+            <mj-image  padding="0" height="100px" width="100px" src="./images/product.png" />
+          </mj-column>
+          <mj-column width="80%" padding="20px 0px 20px 20px" vertical-align="middle">
+            <mj-text >
+              <p>(0000000000000) Oximetro Digital de Dedo Medidor de Saturação de 
+              Oxigênio </p>
+            </mj-text>
+          </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="10px 35px" >
+      <mj-section css-class="box-shadow" border="1px solid #B6B9D0" padding=0>
+        <mj-column padding="20px">
+          <mj-text>
+            <p><b>Principais motivos de reclamação:</b><p>
+            <ul>
+              <li>Produto com defeito</li>
+              <li>Produto diferente do anunciado</li>
+              <li>Cancelamento por Arrependimento</li>
+            </ul>
+          </mj-text>
+          <mj-text padding-top="20px" mj-class="danger-text">
+            Por gentileza, <b>reavalie a qualidade do produto</b> para evitar
+            novas reclamações e que seu anúncio seja inativado.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+
+    <mj-section padding-bottom="40px">
+      <mj-column>
+        <mj-text >
+          <p>Abraços,<br/><b>olist</b></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./sections/footer-seller.mjml" />
+
+  </mj-body>
+</mjml>

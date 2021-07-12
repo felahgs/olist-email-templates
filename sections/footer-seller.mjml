@@ -1,21 +1,23 @@
 <mj-hero
+  background-height="196px"
+  background-url="./images/footer-bg-reverse.svg"
+  background-color="#2a3448"
   mode="fixed-height"
   height="196px"
-  background-height="196px"
-  background-url="./images/footer-bg.svg"
-  background-color="#2a3448"
   padding-top="24px"
 >
   <mj-text
     align="center"
+    color="#fff"
     font-size="17px"
     font-weight="600"
     line-height="25.5px"
   >
-    Dúvidas sobre a sua compra?
+    Dúvidas sobre a sua venda?
   </mj-text>
   <mj-text
     align="center"
+    color="#fff"
     font-size="12px"
     line-height="18px"
   >
@@ -23,15 +25,15 @@
   </mj-text>
   <mj-button 
     align="center"
-    background-color="#0c29D0"
+    background-color="#fff"
     border-radius="100px"
-    color="#fff"
+    color="#0c29D0"
     css-class="custom-button"
     font-size="16px"
     font-weight="600"
-    title="preciso de ajuda"
     height="52px"
     href="https://www.mercadolivre.com.br" 
+    title="preciso de ajuda"
   >
     preciso de ajuda
   </mj-button>
