@@ -8,7 +8,7 @@
   <mj-body>
     <mj-section mj-class="header">
       <mj-column>
-        <mj-image alt="olist" height="32px" src="./images/olist.svg" />
+        <mj-image height="32px" src="./images/olist.svg" />
         <mj-text align="center"> 
           <h1>cancelamento solicitado</h1>
           <h1>pedido nº1234567</h1>
@@ -47,10 +47,11 @@
           background-color="#0dc78b" 
           css-class="custom-button"
           font-size="16px"
-          name="link para etiqueta de devolução"
           font-weight="600"
           height="60px"
           href="https://www.mercadolivre.com.br/"
+          name="link para etiqueta de devolução"
+          title="link da etiqueta para devolução"
         >
           gerar etiqueta
         </mj-button>
